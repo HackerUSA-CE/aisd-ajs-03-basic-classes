@@ -319,6 +319,49 @@ In this way, the `getAge` method leverages the `currentYear` parameter to calcul
 
 ##
 
+### 9. **Commit and Push to GitHub**
+
+In this final step, you’ll commit your changes and push your project to GitHub to save and share your work. This will ensure that your project is versioned and backed up remotely.
+
+- [ ] **Initialize Git (if not already initialized):**
+     ```bash
+     git init
+     ```
+
+- [ ] **Add All Changes to Staging:**
+     ```bash
+     git add .
+     ```
+
+- [ ] **Commit Your Changes:**
+     ```bash
+     git commit -m "Add JavaScript classes for Person and Vehicle with methods"
+     ```
+
+- [ ] **Connect to Your GitHub Repository** (if not already connected):
+     - Replace `<username>` with your GitHub username and `<repository-name>` with the name of your repository.
+     ```bash
+     git remote add origin https://github.com/<username>/<repository-name>.git
+     ```
+
+- [ ] **Push to GitHub:**
+     ```bash
+     git push -u origin main
+     ```
+
+### Explanation of Step 9: Commit and Push to GitHub
+
+In this step, we committed our changes and pushed the project to GitHub to create a backup and enable version control:
+
+- **Initialized Git:** We ran `git init` to start version control in the project folder if it wasn’t already initialized.
+- **Added Changes to Staging:** The `git add .` command staged all project files for the commit.
+- **Committed the Changes:** We used `git commit` with a descriptive message to save our work.
+- **Connected to GitHub:** We linked our local repository to a GitHub repository using `git remote add origin`.
+- **Pushed to GitHub:** Finally, `git push -u origin main` uploaded our code to the `main` branch on GitHub.
+
+This step ensures that your project is versioned and safely stored in GitHub, enabling easy sharing and tracking of changes.
+
+
 ## Conclusion 📄
 
 In this lab, you learned how to use **JavaScript classes** to create structured, reusable code representing objects with specific properties and methods. By following each step, you gained practical experience with:
